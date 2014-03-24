@@ -1,35 +1,71 @@
-use &harr; to navigate
+State of the Pouch
 
-Medium
+*what is PouchDB*
 
-_Presentation software_ for lazy messy hackers
+CouchDB compatable DB in JavaScript
 
-text
+Browser AND Node
 
-from markdown
+LevelDB in node
 
-as _medium_ as it can be
+IndexedDB and WebSQL in Browser
 
-no config
+in cordova, it can use the sqlite plugin
 
-_1.5k_
+replicates to and from couchdb
 
-plus like _50k_ more for Markdown conversion, CSS, and other stuff
+including long polling
 
-![](http://farm9.staticflickr.com/8527/8680357801_712bc7e350_o.png) images too
+*status*
 
-* also
-* lists
-* as well
+vary large push since couchdb conf
 
-```javascript
-var code = true;
-```
+new committers including Nolan Lawson and Ian Goodacre
 
-based off [big by @tmcw](https://github.com/tmcw/big)
+Highlights include
 
-markdown by [marked](https://github.com/chjj/marked)
+*1.0.0*
 
-Syntax highlighting by [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/)
+goodby grunt
 
-JS+CSS [github.com/ calvinmetcalf/ medium](https://github.com/calvinmetcalf/medium)
+hello package.json scripts object
+
+Use Browserify
+
+*1.1.0*
+
+plugins live in other repos
+
+works in a web worker
+
+massive internal reorg
+
+*2.0.0*
+
+no more allDbs
+
+qunit can die in a fire, we're using mocha
+
+use prototype
+
+PouchDB emits events when dbs are created/destroyed
+
+Promises (and better async errors even with callbacks)
+
+total_rows is now correct in all docs
+
+bunch of improvements for mobile
+
+*2.1.0*
+
+caching queries!
+
+live instead of continuous
+
+db.events
+
+*future*
+
+streams? (might not be in core)
+
+get tests working with big couch
