@@ -1,5 +1,9 @@
 State of the Pouch
 
+Calvin Metcalf
+
+[@cwmma](https://twitter.com/CWMma)
+
 *what is PouchDB*
 
 CouchDB compatable DB in JavaScript
@@ -20,7 +24,7 @@ including long polling
 
 vary large push since couchdb conf
 
-new committers including Nolan Lawson and Ian Goodacre
+new committees including Nolan Lawson and Ian Goodacre
 
 Highlights include
 
@@ -42,8 +46,6 @@ massive internal reorg
 
 *2.0.0*
 
-no more allDbs
-
 qunit can die in a fire, we're using mocha
 
 use prototype
@@ -52,15 +54,16 @@ PouchDB emits events when dbs are created/destroyed
 
 Promises (and better async errors even with callbacks)
 
-total_rows is now correct in all docs
+bunch of improvements for mobile/websql
 
-bunch of improvements for mobile
+did a bunch of work on the levelDB adapter
+
 
 *2.1.0*
 
 caching queries!
 
-live instead of continuous
+instead of continuous, live! (Which I can spell)
 
 db.events
 
@@ -69,3 +72,35 @@ db.events
 streams? (might not be in core)
 
 get tests working with big couch
+
+more efficient replication
+
+your idea?
+
+**lessons**
+
+BROWSERIFY IS AMAZING
+
+I would rather get kicked in the crouch then go back to AMD
+
+Seriously
+
+Safari is the new IE
+
+Except
+
+Old android is even worse
+
+we get bug reports related to only supporting es3
+
+firefox/chrome has es6 stuff now
+
+levelDB rocks
+
+writing code is easy, writing tests are hard
+
+don't use grunt/gulp/jake/cake
+
+just put a scripts object into your package.json
+
+[pouchdb.com](http://pouchdb.com/)
