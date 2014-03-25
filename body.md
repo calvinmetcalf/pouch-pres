@@ -6,11 +6,11 @@ Calvin Metcalf
 
 *what is PouchDB*
 
-CouchDB compatable DB in JavaScript
+CouchDB compatible DB in JavaScript
 
 Browser AND Node
 
-LevelDB in node
+LevelDB in Node
 
 IndexedDB and WebSQL in Browser
 
@@ -22,7 +22,7 @@ including long polling
 
 *status*
 
-vary large push since couchdb conf
+very large push since couchdb conf
 
 new committees including Nolan Lawson and Ian Goodacre
 
@@ -30,7 +30,7 @@ Highlights include
 
 *1.0.0*
 
-goodby grunt
+goodbye grunt
 
 hello package.json scripts object
 
